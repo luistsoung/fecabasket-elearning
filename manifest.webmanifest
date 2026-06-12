@@ -1,0 +1,30 @@
+{
+  "name": "FECABASKET E-Learning",
+  "short_name": "FECABASKET",
+  "description": "Plateforme officielle de formation des entraîneurs camerounais de basketball",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#004D1F",
+  "theme_color": "#007A33",
+  "orientation": "portrait-primary",
+  "lang": "fr",
+  "categories": [
+    "education",
+    "sports"
+  ],
+  "icons": [
+    {
+      "src": "/assets/img/favicon/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/img/favicon/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
