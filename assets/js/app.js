@@ -11,30 +11,33 @@
     const toggle = document.querySelector('.nav-toggle');
     const navLinks = document.querySelector('.nav-links');
     if (toggle && navLinks) {
+        const openMenu = () => {
+            toggle.classList.add('open');
+            navLinks.classList.add('open');
+            document.body.classList.add('menu-open');
+        };
+        const closeMenu = () => {
+            toggle.classList.remove('open');
+            navLinks.classList.remove('open');
+            document.body.classList.remove('menu-open');
+        };
         toggle.addEventListener('click', (e) => {
             e.stopPropagation();
-            toggle.classList.toggle('open');
-            navLinks.classList.toggle('open');
+            if (navLinks.classList.contains('open')) closeMenu();
+            else openMenu();
         });
         navLinks.querySelectorAll('a').forEach((a) => {
-            a.addEventListener('click', () => {
-                toggle.classList.remove('open');
-                navLinks.classList.remove('open');
-            });
+            a.addEventListener('click', closeMenu);
         });
         // Fermeture menu : touche Échap
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && navLinks.classList.contains('open')) {
-                toggle.classList.remove('open');
-                navLinks.classList.remove('open');
-            }
+            if (e.key === 'Escape' && navLinks.classList.contains('open')) closeMenu();
         });
         // Fermeture menu : clic extérieur
         document.addEventListener('click', (e) => {
             if (!navLinks.classList.contains('open')) return;
             if (e.target.closest('.nav')) return;
-            toggle.classList.remove('open');
-            navLinks.classList.remove('open');
+            closeMenu();
         });
     }
 
