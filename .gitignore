@@ -1,0 +1,57 @@
+# =========================================================
+# FECABASKET E-Learning — .gitignore
+# Exclut les fichiers de developpement et de sauvegarde
+# qui n'ont pas leur place sur le depot public.
+# =========================================================
+
+# ---- Backups internes des photos (originaux haute resolution) ----
+# Conserves en local pour pouvoir repasser les pipelines IA si besoin,
+# mais inutiles pour la publication.
+assets/img/_backup-*/
+assets/img/_src-*
+assets/img/_sr_models/
+
+# ---- Scripts Python de developpement ----
+# Pipelines IA, scripts d'optimisation : usage local uniquement.
+assets/img/_studio_pipeline.py
+assets/img/_sharp_pipeline.py
+assets/img/_webp_optimize.py
+_html_optimize.py
+*.pyc
+__pycache__/
+.python-version
+
+# ---- Fichiers WebP issus du test d'optimisation (8 juin 2026) ----
+# Generes mais non utilises par les HTML actuels.
+# Decommentez la ligne suivante si vous voulez les inclure :
+# assets/img/**/*.webp
+assets/img/**/*.webp
+
+# ---- Fichiers temporaires et systeme ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.tmp
+*.swp
+*~
+
+# ---- Outils developpement ----
+.vscode/
+.idea/
+*.sublime-*
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+
+# ---- Dossier de deploiement temporaire ----
+SITE-A-GLISSER-SUR-NETLIFY/
+
+# ---- Variables d'environnement (a ne JAMAIS publier) ----
+.env
+.env.local
+.env.production
+
+# ---- Fichier de configuration Claude Code local ----
+.claude/

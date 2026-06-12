@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FECABASKET E-Learning — Formation des entraîneurs camerounais</title>
+    <meta name="description" content="Plateforme officielle de formation en ligne des entraîneurs de basketball au Cameroun. 5 niveaux alignés FIBA WABC : Animateur, Moniteur, Niveau 1, Niveau 2, Niveau 3.">
+    <link rel="icon" type="image/png" href="assets/img/logo-fecabasket.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- =========== HEADER =========== -->
+<header class="header">
+    <nav class="nav">
+        <a href="index.html" class="brand">
+            <div class="brand-logo">
+                <img src="assets/img/logo-fecabasket.png" alt="Logo FECABASKET" loading="eager">
+            </div>
+            <div>
+                FECABASKET
+                <small>E-Learning DTN</small>
+            </div>
+        </a>
+        <button class="nav-toggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="niveaux.html">Niveaux</a></li>
+            <li><a href="vae.html">VAE</a></li>
+            <li><a href="tactique.html">Tactique Animation</a></li>
+            <li><a href="quiz.html">Quiz et QCM</a></li>
+            <li><a href="ressources.html">Ressources</a></li>
+            <li><a href="process-corporation.html">Process Corporation</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- =========== HERO =========== -->
+<section class="hero">
+    <div class="hero-grid">
+        <div class="hero-content reveal visible">
+            <span class="hero-eyebrow"><span class="eye-flash">⚡</span>Saison 2026/2027 — Direction Technique Nationale</span>
+            <h1 style="text-shadow: 0 2px 14px rgba(0,30,12,.45), 0 1px 2px rgba(0,0,0,.5); font-size: clamp(1.9rem, 4.4vw, 3rem);">Entraîneurs, formez-vous au Basket <span class="accent">made in Cameroon</span></h1>
+            <p class="lead">La plateforme officielle d'e-learning des entraîneurs camerounais. <strong>5 niveaux</strong> de certification alignés <strong>FIBA WABC</strong>, accessibles partout, sur mobile, et <strong style="color:var(--jaune)">100 % gratuits</strong> pour tous.</p>
+            <div class="hero-ctas">
+                <a href="niveaux.html" class="btn btn-primary">
+                    Découvrir les 5 niveaux
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                </a>
+                <a href="tactique.html" class="btn btn-jaune">▶ Voir les schémas tactiques</a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <strong data-count="500" data-suffix="+">0</strong>
+                    <span>entraîneurs visés en 2028</span>
+                </div>
+                <div class="hero-stat">
+                    <strong data-count="5">0</strong>
+                    <span>niveaux WABC</span>
+                </div>
+                <div class="hero-stat">
+                    <strong data-count="70" data-suffix="%">0</strong>
+                    <span>contenus mobile</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual reveal delay-2 visible">
+            <span class="hero-stripes left" aria-hidden="true"></span>
+            <span class="hero-stripes right" aria-hidden="true"></span>
+            <span class="hero-stripes diag" aria-hidden="true"></span>
+            <span class="hero-stage" aria-hidden="true"></span>
+            <div class="hero-player">
+                <img src="assets/img/jeremiah-hill.png"
+                     alt="Jeremiah Hill, capitaine des Lions Indomptables du Cameroun"
+                     loading="eager">
+                <div class="hero-player-overlay">
+                    <span class="hero-player-flag">
+                        <span style="background:#007A33"></span>
+                        <span style="background:#CE1126"></span>
+                        <span style="background:#FCD116"></span>
+                    </span>
+                    <strong>Jeremiah Hill · #68</strong>
+                    <small>★ Capitaine Lions Indomptables</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-wave">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+            <path d="M0,30 Q360,60 720,30 T1440,30 L1440,60 L0,60 Z" fill="#FFFFFF"/>
+        </svg>
+    </div>
+</section>
+
+<!-- =========== NIVEAUX =========== -->
+<section class="section section-with-bg" id="niveaux">
+    <div class="section-bg" style="background-image:url('assets/img/equipe-dames-bg.jpg');" aria-hidden="true"></div>
+    <div class="container">
+        <div class="section-head reveal">
+            <span class="eyebrow">Parcours certifiant</span>
+            <h2>5 niveaux pour grandir comme entraîneur</h2>
+            <p>De l'animateur Mini-Basket à l'entraîneur de haut niveau : un cursus progressif en <strong>5 paliers</strong>, aligné sur le référentiel mondial <strong>FIBA WABC</strong> et porté par deux experts FIBA.</p>
+        </div>
+
+        <div class="levels-grid cols-5">
+            <a href="cours-animateur.html" class="level-card reveal" data-color="vert" style="text-decoration:none; color:inherit;">
+                <div class="level-sub">U5 · U7 · U10</div>
+                <span class="level-number">1</span>
+                <h3>Animateur</h3>
+                <div class="level-meta">
+                    <span>⏱ 30 h</span>
+                    <span>🏀 Mini-Basket</span>
+                </div>
+                <ul>
+                    <li>Sécurité, valeurs, secours</li>
+                    <li>Pédagogie Mini-Basket</li>
+                    <li>Fondamentaux ludiques</li>
+                </ul>
+            </a>
+
+            <a href="cours-moniteur.html" class="level-card reveal delay-1" data-color="vert-clair" style="text-decoration:none; color:inherit;">
+                <div class="level-sub">U12 · U14 · U16</div>
+                <span class="level-number">2</span>
+                <h3>Moniteur</h3>
+                <div class="level-meta">
+                    <span>⏱ 45 h</span>
+                    <span>🏀 Jeunes</span>
+                </div>
+                <ul>
+                    <li>Consolidation fondamentaux</li>
+                    <li>Préparation à la compétition</li>
+                    <li>Premiers systèmes simples</li>
+                </ul>
+            </a>
+
+            <a href="cours-niveau1.html" class="level-card reveal delay-2" data-color="rouge" style="text-decoration:none; color:inherit;">
+                <div class="level-sub">U18 · Seniors Régions</div>
+                <span class="level-number">3</span>
+                <h3>Niveau 1</h3>
+                <div class="level-meta">
+                    <span>⏱ 60 h</span>
+                    <span>🏀 WABC L1</span>
+                </div>
+                <ul>
+                    <li>Conception de séance, cycle</li>
+                    <li>Technique individuelle</li>
+                    <li>Défense individuelle</li>
+                    <li>Règles FIBA</li>
+                </ul>
+            </a>
+
+            <a href="cours-niveau2.html" class="level-card reveal delay-3" data-color="jaune" style="text-decoration:none; color:inherit;">
+                <div class="level-sub">National · Compétition</div>
+                <span class="level-number">4</span>
+                <h3>Niveau 2</h3>
+                <div class="level-meta">
+                    <span>⏱ 100 h</span>
+                    <span>🏀 WABC L2</span>
+                </div>
+                <ul>
+                    <li>Tactique collective</li>
+                    <li>Défense de zone, écrans</li>
+                    <li>Scouting, analyse vidéo</li>
+                    <li>Game plan, tournoi</li>
+                </ul>
+            </a>
+
+            <a href="cours-niveau3.html" class="level-card reveal delay-4" data-color="orange" style="text-decoration:none; color:inherit;">
+                <div class="level-sub">Haut niveau · Formateur</div>
+                <span class="level-number">5</span>
+                <h3>Niveau 3</h3>
+                <div class="level-meta">
+                    <span>⏱ 150 h</span>
+                    <span>🏀 WABC L3</span>
+                </div>
+                <ul>
+                    <li>Périodisation annuelle</li>
+                    <li>Leadership, management</li>
+                    <li>Prép. physique avancée</li>
+                    <li>Mémoire + soutenance</li>
+                </ul>
+            </a>
+        </div>
+
+        <div class="text-center mt-40 reveal">
+            <a href="niveaux.html" class="btn btn-secondary">Voir le détail des modules →</a>
+        </div>
+    </div>
+</section>
+
+<!-- =========== POURQUOI (Features) =========== -->
+<section class="section alt">
+    <div class="container">
+        <div class="section-head reveal">
+            <span class="eyebrow">Une plateforme pensée pour le terrain</span>
+            <h2>Pourquoi FECABASKET E-Learning ? <span style="display:inline-block; font-size:.55em; font-weight:600; color:var(--gris); letter-spacing:.04em; margin-left:8px; vertical-align:middle">🇫🇷 FR · 🇬🇧 EN</span></h2>
+            <p>Conçue pour le contexte camerounais : mobile-first, données légères, contenus <strong>en français et en anglais</strong>, animée par les instructeurs FIBA WABC du pays.</p>
+        </div>
+
+        <div class="why-grid">
+
+            <article class="why-card reveal" style="--c:var(--vert); --c2:var(--vert-fonce)">
+                <span class="why-num">01</span>
+                <div class="why-ico" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+                </div>
+                <h3>Mobile-first</h3>
+                <p>29 M de connexions mobiles au Cameroun. Les capsules vidéo de 5-10 min sont optimisées pour smartphone et réseaux modestes.</p>
+            </article>
+
+            <article class="why-card reveal delay-1" style="--c:var(--rouge); --c2:var(--rouge-fonce)">
+                <span class="why-num">02</span>
+                <div class="why-ico" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12A10 10 0 1 1 12 2"/><path d="M22 2L12 12"/></svg>
+                </div>
+                <h3>Tactique animée</h3>
+                <p>Schémas interactifs et plays animés inspirés FIBA WABC, FastModel et Hoop Coach. Comprenez vraiment ce que vous lisez sur le tableau.</p>
+            </article>
+
+            <article class="why-card reveal delay-2" style="--c:var(--jaune-fonce); --c2:#b08a00">
+                <span class="why-num">03</span>
+                <div class="why-ico" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                </div>
+                <h3>Quiz &amp; QCM par module</h3>
+                <p>Évaluez vos acquis. <strong>70 % minimum</strong> pour valider. Retour pédagogique immédiat sur chaque question, et possibilité de recommencer.</p>
+            </article>
+
+            <article class="why-card reveal" style="--c:var(--vert-clair); --c2:var(--vert)">
+                <span class="why-num">04</span>
+                <div class="why-ico" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L4 7v6c0 5 4 8 8 9 4-1 8-4 8-9V7l-8-5z"/></svg>
+                </div>
+                <h3>Contenus équivalents FIBA WABC</h3>
+                <p>Alignement avec les exigences internationales : nos modules reprennent fidèlement le référentiel <strong>FIBA WABC</strong> (World Association of Basketball Coaches) pour des compétences directement comparables à celles des entraîneurs formés à l'étranger.</p>
+            </article>
+
+            <article class="why-card reveal delay-1" style="--c:var(--orange); --c2:#b34c00">
+                <span class="why-num">05</span>
+                <div class="why-ico" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg>
+                </div>
+                <h3>Préparer efficacement les diplômes fédéraux</h3>
+                <p>Une véritable rampe de lancement vers les <strong>diplômes officiels FECABASKET</strong> (Animateur, Moniteur, Niveaux 1-2-3) : capsules ciblées, quiz d'auto-évaluation et études de cas alignés sur les épreuves fédérales. Vous arrivez préparé·e, vous validez sereinement.</p>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- =========== ÉQUIPES NATIONALES =========== -->
+<section class="section dark">
+    <div class="container">
+        <div class="section-head reveal">
+            <span class="eyebrow">Nos modèles · Lions Indomptables</span>
+            <h2>De la base vers les équipes nationales en passant par l'Élite One, nous sommes tous des Lions&nbsp;Indomptables&nbsp;!</h2>
+        </div>
+
+        <div class="teams-grid">
+            <a href="tous-nos-lions.html" class="team-card team-link reveal">
+                <div class="photo" style="background-image:linear-gradient(135deg, rgba(0,77,31,.35), rgba(0,0,0,.1)), url('assets/img/lions-messieurs.jpeg');"></div>
+                <span class="badge">Équipes nationales</span>
+                <div class="info">
+                    <div class="flag">
+                        <span style="background:#007A33"></span>
+                        <span style="background:#CE1126"></span>
+                        <span style="background:#FCD116"></span>
+                    </div>
+                    <h3>Tous nos Lions <span class="team-arrow">→</span></h3>
+                    <p>Découvrez Lions et Lionnes Indomptables, sélections jeunes et tous les Camerounais qui portent les couleurs.</p>
+                </div>
+            </a>
+
+            <a href="youzou-elite-one-dames.html" class="team-card team-link reveal delay-1">
+                <div class="photo" style="background-image:linear-gradient(135deg, rgba(252,209,22,.15), rgba(0,77,31,.35)), url('assets/img/lionnes-dames.jpeg');"></div>
+                <span class="badge">Championnat national</span>
+                <div class="info">
+                    <div class="flag">
+                        <span style="background:#007A33"></span>
+                        <span style="background:#CE1126"></span>
+                        <span style="background:#FCD116"></span>
+                    </div>
+                    <h3>Youzou Élite One Dames <span class="team-arrow">→</span></h3>
+                    <p>Le championnat élite féminin camerounais : clubs, classements, vivier des futures internationales.</p>
+                </div>
+            </a>
+
+            <a href="youzou-elite-one-messieurs.html" class="team-card team-link reveal delay-2">
+                <div class="photo" style="background-image:linear-gradient(135deg, rgba(206,17,38,.25), rgba(0,77,31,.35)), url('assets/img/techniciens.jpeg');"></div>
+                <span class="badge">Championnat national</span>
+                <div class="info">
+                    <div class="flag">
+                        <span style="background:#007A33"></span>
+                        <span style="background:#CE1126"></span>
+                        <span style="background:#FCD116"></span>
+                    </div>
+                    <h3>Youzou Élite One Messieurs <span class="team-arrow">→</span></h3>
+                    <p>Le championnat élite masculin camerounais : clubs phares, joueurs marquants, calendrier de la saison.</p>
+                </div>
+            </a>
+        </div>
+        <p style="margin-top:32px;text-align:center;font-size:.85rem;color:rgba(255,255,255,.6)">
+            Photos officielles · Source : <a href="https://www.fecabasket.com" target="_blank" rel="noopener" style="color:var(--jaune)">www.fecabasket.com</a>
+        </p>
+    </div>
+</section>
+
+<!-- =========== APERÇU QUIZ =========== -->
+<section class="section">
+    <div class="container">
+        <div class="grid-2" style="align-items:center">
+            <div class="reveal">
+                <span class="eyebrow" style="color:var(--rouge); font-weight:700; font-size:.85rem; letter-spacing:.14em; text-transform:uppercase;">Évaluation continue</span>
+                <h2 style="margin-top:14px">Apprenez puis testez-vous immédiatement</h2>
+                <p>Chaque module se termine par un quiz de 10 questions à choix multiples. Bonne réponse immédiate, explication pédagogique, possibilité de recommencer.</p>
+                <ul style="list-style:none; padding:0;">
+                    <li style="padding:8px 0 8px 30px; position:relative;">
+                        <span style="position:absolute; left:0; top:10px; width:18px; height:18px; background:var(--vert); border-radius:50%; display:grid; place-items:center; color:white; font-weight:800; font-size:.75rem;">✓</span>
+                        Questions alignées sur le référentiel WABC FR
+                    </li>
+                    <li style="padding:8px 0 8px 30px; position:relative;">
+                        <span style="position:absolute; left:0; top:10px; width:18px; height:18px; background:var(--vert); border-radius:50%; display:grid; place-items:center; color:white; font-weight:800; font-size:.75rem;">✓</span>
+                        Explication pédagogique pour chaque réponse
+                    </li>
+                    <li style="padding:8px 0 8px 30px; position:relative;">
+                        <span style="position:absolute; left:0; top:10px; width:18px; height:18px; background:var(--vert); border-radius:50%; display:grid; place-items:center; color:white; font-weight:800; font-size:.75rem;">✓</span>
+                        Note minimale 70 % — recommençable à volonté
+                    </li>
+                    <li style="padding:8px 0 8px 30px; position:relative;">
+                        <span style="position:absolute; left:0; top:10px; width:18px; height:18px; background:var(--vert); border-radius:50%; display:grid; place-items:center; color:white; font-weight:800; font-size:.75rem;">✓</span>
+                        Badges Open Badges délivrés à chaque réussite
+                    </li>
+                </ul>
+                <a href="quiz.html" class="btn btn-primary" style="margin-top:20px">Essayer un quiz →</a>
+            </div>
+
+            <div class="reveal delay-2" style="background:var(--gris-tres-clair); padding:32px; border-radius:var(--radius-l); position:relative; overflow:hidden; box-shadow:var(--shadow-s);">
+                <div style="position:absolute; top:0; left:0; width:6px; height:100%; background:linear-gradient(to bottom, var(--vert), var(--jaune), var(--rouge));"></div>
+                <div style="font-size:.75rem; font-weight:700; color:var(--rouge); letter-spacing:.12em; text-transform:uppercase; margin-bottom:8px;">Aperçu · question 3/10</div>
+                <div style="font-weight:700; font-size:1.15rem; color:var(--noir); margin-bottom:20px;">Un panier à 3 points est marqué depuis…</div>
+                <div style="display:grid; gap:10px;">
+                    <div style="padding:12px 18px; background:white; border-radius:8px; display:flex; gap:12px; align-items:center;">
+                        <span style="width:28px; height:28px; background:var(--gris-tres-clair); border-radius:50%; display:grid; place-items:center; font-weight:800; color:var(--gris);">A</span>
+                        Derrière la ligne des lancers francs
+                    </div>
+                    <div style="padding:12px 18px; background:rgba(0,122,51,.12); border:2px solid var(--vert); border-radius:8px; display:flex; gap:12px; align-items:center; color:var(--vert-fonce); font-weight:600;">
+                        <span style="width:28px; height:28px; background:var(--vert); color:white; border-radius:50%; display:grid; place-items:center; font-weight:800;">B</span>
+                        Au-delà de la ligne à 6,75 m (FIBA) ✓
+                    </div>
+                    <div style="padding:12px 18px; background:white; border-radius:8px; display:flex; gap:12px; align-items:center;">
+                        <span style="width:28px; height:28px; background:var(--gris-tres-clair); border-radius:50%; display:grid; place-items:center; font-weight:800; color:var(--gris);">C</span>
+                        Au-delà de la ligne à 7,24 m (NBA)
+                    </div>
+                </div>
+                <div style="margin-top:16px; padding:12px 16px; background:rgba(0,122,51,.08); border-left:4px solid var(--vert); border-radius:6px; font-size:.88rem; color:var(--vert-fonce);">
+                    <strong>✓ Bonne réponse</strong><br>En FIBA, la ligne à 3 points est à 6,75 m du centre du panier.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========== ROADMAP =========== -->
+<section class="section alt chronogramme-section">
+    <div class="chronogramme-figure" aria-hidden="true">
+        <img src="assets/img/steve-missy.png" alt="">
+    </div>
+    <div class="container">
+        <div class="section-head reveal">
+            <span class="eyebrow">Chronogramme DTN — saison 2026/2027</span>
+            <h2>Du T3 2026 à 2028 : un déploiement maîtrisé</h2>
+            <p>Cinq phases successives pour passer de 50 entraîneurs formés/an à 500+ certifiés à l'échelle nationale.</p>
+        </div>
+
+        <div class="timeline">
+            <div class="tl-item reveal">
+                <div class="tl-meta">Phase 1 · T3 2026</div>
+                <h3>Initialisation</h3>
+                <p>Installation de la plateforme Moodle, charte graphique FECABASKET, infrastructure VPS, AO hébergeur. Lancement du sous-domaine elearning.fecabasket.com en juillet-septembre 2026.</p>
+            </div>
+            <div class="tl-item right reveal delay-1">
+                <div class="tl-meta">Phase 2 · T4 2026</div>
+                <h3>Production pédagogique</h3>
+                <p>Tournage et production des capsules vidéo Animateur + Moniteur + Niveau 1. Intégration paiement Campay (Orange Money + MTN MoMo).</p>
+            </div>
+            <div class="tl-item reveal delay-2">
+                <div class="tl-meta">Phase 3 · T1-T2 2027</div>
+                <h3>Pilote — 100 entraîneurs</h3>
+                <p>Lancement dans 2 ligues : Centre et Littoral. Retour terrain, ajustements pédagogiques, validation par les experts FIBA.</p>
+            </div>
+            <div class="tl-item right reveal delay-3">
+                <div class="tl-meta">Phase 4 · T3-T4 2027</div>
+                <h3>Généralisation nationale</h3>
+                <p>Extension aux 10 régions. Production des Niveaux 2 et 3. Objectif : <strong>500 entraîneurs certifiés</strong> d'ici fin 2028.</p>
+            </div>
+            <div class="tl-item reveal delay-4">
+                <div class="tl-meta">Phase 5 · 2028+</div>
+                <h3>Consolidation & ouverture</h3>
+                <p>Recertification triennale, ouverture diaspora et zone CEMAC francophone, partenariats FIBA WABC.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- =========== FOOTER =========== -->
+<footer class="footer">
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <a href="index.html" class="brand" style="color:white">
+                <div class="brand-logo" style="background:rgba(255,255,255,.96); padding:6px; border-radius:50%;">
+                    <img src="assets/img/logo-fecabasket.png" alt="Logo FECABASKET" loading="lazy">
+                </div>
+                <div>FECABASKET<small style="color:var(--jaune)">E-Learning DTN</small></div>
+            </a>
+            <p>Plateforme officielle de formation en ligne des entraîneurs camerounais de basketball. Direction Technique Nationale FECABASKET, sous l'autorité de Louis Tsoungui, Instructeur FIBA WABC.</p>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/fecabasket/" target="_blank" rel="noopener" aria-label="Facebook FECABASKET officiel" title="Facebook FECABASKET">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </a>
+                <a href="https://x.com/FECABASKET" target="_blank" rel="noopener" aria-label="X (Twitter) FECABASKET officiel" title="X (Twitter) FECABASKET">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                </a>
+                <a href="https://www.instagram.com/fecabasket_officiel/" target="_blank" rel="noopener" aria-label="Instagram FECABASKET officiel" title="Instagram FECABASKET">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zM17.5 6.5h.01"/></svg>
+                </a>
+                <a href="https://www.youtube.com/@fecabasketofficiel1201" target="_blank" rel="noopener" aria-label="YouTube FECABASKET officiel" title="YouTube FECABASKET">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33zM9.75 15.02V8.48l5.75 3.27z"/></svg>
+                </a>
+                <a href="https://wa.me/237676181134?text=Bonjour%2C%20je%20vous%20contacte%20depuis%20la%20plateforme%20FECABASKET%20E-Learning" target="_blank" rel="noopener" aria-label="Contacter par WhatsApp" title="Contacter par WhatsApp">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347M12.05 21.785h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <h4>Formation</h4>
+            <ul>
+                <li><a href="cours-animateur.html">Animateur</a></li>
+                <li><a href="cours-moniteur.html">Moniteur</a></li>
+                <li><a href="cours-niveau1.html">Niveau 1</a></li>
+                <li><a href="cours-niveau2.html">Niveau 2</a></li>
+                <li><a href="cours-niveau3.html">Niveau 3</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h4>Outils</h4>
+            <ul>
+                <li><a href="tactique.html">Schémas tactiques</a></li>
+                <li><a href="quiz.html">Quiz & QCM</a></li>
+                <li><a href="ressources.html">Ressources WABC</a></li>
+                <li><a href="ressources.html#fiba">Manuels FIBA FR</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h4>Contact</h4>
+            <ul>
+                <li>DTN FECABASKET</li>
+                <li>Yaoundé · Cameroun</li>
+                <li><a href="mailto:luistsoung@yahoo.fr">luistsoung@yahoo.fr</a></li>
+                <li><a href="https://www.fecabasket.com">www.fecabasket.com</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-flag">
+        <span class="v"></span>
+        <span class="r"></span>
+        <span class="j"></span>
+    </div>
+</footer>
+<div class="footer-bottom">
+    © 2026 FECABASKET · Direction Technique Nationale · Tous droits réservés · Référentiel aligné FIBA WABC
+</div>
+
+<script src="assets/js/app.js"></script>
+<script src="assets/js/lang-switcher.js?v=2026060118" defer></script>
+</body>
+</html>
