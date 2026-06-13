@@ -259,16 +259,47 @@ body::before {
 .nav-cta {
     background: var(--rouge);
     color: var(--blanc) !important;
-    padding: 10px 20px !important;
-    border-radius: var(--radius-s);
+    padding: 9px 18px !important;
+    border-radius: 100px;
     font-weight: 700;
-    transition: background var(--t-fast), transform var(--t-fast);
+    font-size: .82rem;
+    letter-spacing: .02em;
+    margin-left: 14px;
+    margin-right: 12px;
+    box-shadow: 0 2px 8px rgba(206, 17, 38, .25);
+    transition: background var(--t-fast), transform var(--t-fast), box-shadow var(--t-fast);
+    white-space: nowrap;
 }
 .nav-cta:hover {
     background: var(--rouge-fonce);
+    color: var(--blanc) !important;
     transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(206, 17, 38, .4);
 }
 .nav-cta::after { display: none; }
+/* Sur tablette : reduit pour ne pas casser la nav */
+@media (max-width: 980px) and (min-width: 881px) {
+    .nav-cta {
+        margin-left: 10px;
+        margin-right: 8px;
+        padding: 7px 14px !important;
+        font-size: .76rem;
+    }
+}
+/* Sur mobile (menu burger) : pleine largeur, decolle, fond plein */
+@media (max-width: 880px) {
+    .nav-links .nav-cta,
+    .nav-cta {
+        display: block !important;
+        width: calc(100% - 32px) !important;
+        margin: 18px 16px 8px !important;
+        text-align: center !important;
+        padding: 14px 20px !important;
+        font-size: 1rem !important;
+        border-radius: 12px !important;
+        border-bottom: none !important;
+    }
+}
 
 .nav-toggle {
     display: none;
